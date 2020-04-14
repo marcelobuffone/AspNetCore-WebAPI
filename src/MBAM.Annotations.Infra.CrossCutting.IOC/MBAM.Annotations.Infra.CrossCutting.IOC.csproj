@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0-preview.2.20160.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MBAM.Annotations.Domain\MBAM.Annotations.Domain.csproj" />
+    <ProjectReference Include="..\MBAM.Annotations.Infra.CrossCutting.Identity\MBAM.Annotations.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\MBAM.Annotations.Infra.Data\MBAM.Annotations.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
